@@ -2,6 +2,23 @@
 
 Since I decided to write a React component as part of my challenge for Pen Link, and I was asked to write some unit tests, I decided that this would be a good time to try out [Enzyme](https://airbnb.io/enzyme/) (and run it with [Jest](https://jestjs.io/en/)).
 
+---
+
+Test Files: [src/components/test/PL_react_component.test.js](https://github.com/franklinharvey/PL-Challenge-Enzyme-Tests/blob/master/src/components/tests/PL_react_component.test.js)
+
+---
+
+If you wish to run these tests yourself, you'll need to run:
+
+    yarn
+    yarn test
+
+and if you want to run the webpage via this context just run
+    
+    yarn start
+
+### Explanation
+
 I wrote my unit tests to test three things:
 * renders list-items
 * renders an empty list if there are no data props
