@@ -2,6 +2,12 @@
 
 Since I decided to write a React component as part of my challenge for Pen Link, and I was asked to write some unit tests, I decided that this would be a good time to try out [Enzyme](https://airbnb.io/enzyme/) (and run it with [Jest](https://jestjs.io/en/)).
 
+---
+
+Test Files: [src/components/test/PL_react_component.test.js](https://github.com/franklinharvey/PL-Challenge-Enzyme-Tests/blob/master/src/components/tests/PL_react_component.test.js)
+
+---
+
 I wrote my unit tests to test three things:
 * renders list-items
 * renders an empty list if there are no data props
