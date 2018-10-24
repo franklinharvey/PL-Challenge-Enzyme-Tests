@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from '../../enzyme.js';
 
-import PL_List from '../PL_react_component';
+import { PL_List } from '../PL_react_component';
 
 describe('List tests', () => {
 
@@ -21,7 +21,7 @@ describe('List tests', () => {
         "type": "case3",
         "title": "Title 3",
         "id": "UUID07b4-0c25-4288-8445-caecb0aa19f7"
-      },
+      }
     ];
     const wrapper = shallow(<PL_List data={data} />);
     // console.log(wrapper.debug());
@@ -31,7 +31,7 @@ describe('List tests', () => {
     expect(wrapper.find('.list-group-item')).toHaveLength(data.length);
   });
 
-  it('renders an empty list if no data props', () => {
+  it('renders an empty list if there are no data props', () => {
     const wrapper = shallow(<PL_List data=""/>);
     // console.log(wrapper.debug());
 
@@ -56,7 +56,7 @@ describe('List tests', () => {
         "type": "case_3",
         "title": "Title 3",
         "id": "UUID07b4-0c25-4288-8445-caecb0aa19f7"
-      },
+      }
     ];
     const wrapper = shallow(<PL_List data={data} />);
     // console.log(wrapper.debug());

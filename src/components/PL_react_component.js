@@ -62,7 +62,7 @@ class App extends React.Component{
 
    delete(id){
     this.setState(prevState => ({
-      data: prevState.data.filter(el => el != id )
+      data: prevState.data.filter(el => el !== id )
     }));
    }
 
@@ -128,4 +128,5 @@ class PL_List extends React.Component{
    }
 }
 
-export default PL_List;
+export {PL_List};
+export default App;
