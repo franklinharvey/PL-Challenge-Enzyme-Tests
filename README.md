@@ -8,6 +8,17 @@ Test Files: [src/components/test/PL_react_component.test.js](https://github.com/
 
 ---
 
+If you wish to run these tests yourself, you'll need to run:
+
+    yarn
+    yarn test
+
+and if you want to run the webpage via this context just run
+    
+    yarn start
+
+### Explanation
+
 I wrote my unit tests to test three things:
 * renders list-items
 * renders an empty list if there are no data props
